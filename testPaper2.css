@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#maindiv {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: linear-gradient(midnightblue, rgba(21, 21, 76, 0.936));
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#fristdiv {
+    width: 100%;
+    max-width: 100%;
+}
+
+#fristimg {
+    width: 100%;
+    max-height:20%;
+}
+
+#secdiv {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+}
+
+#sechead {
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+#secpara1 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#secpara2 {
+    font-size: 20px;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+
+#thirddiv {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#thirdhead {
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+#left, #right {
+    width: 45%;
+    max-width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+}
+
+#leftimg, #rightimg {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 20px;
+}
+
+#lefthead, #righthead {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+#leftpara, #rightpara {
+    font-size: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(30, 14, 103, 0.866);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin: 20px 10px 0;
+    display: block;
+    margin: 0 auto;
+}
